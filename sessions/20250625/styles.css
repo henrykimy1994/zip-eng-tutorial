@@ -939,3 +939,39 @@ footer {
     box-shadow: 0 1px 3px var(--shadow-color), 
                 0 2px 8px var(--shadow-color);
 }
+
+/* Home button styles */
+.home-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    box-shadow: 0 4px 15px var(--shadow-color);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.home-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px var(--shadow-hover);
+    background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+}
+
+.home-button:active {
+    transform: translateY(0);
+}
+
+@media (max-width: 480px) {
+    .home-button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+}
