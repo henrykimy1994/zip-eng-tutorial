@@ -1,0 +1,411 @@
+:root {
+    --primary-color: #3a86ff;
+    --secondary-color: #ff006e;
+    --background-color: #f8f9fa;
+    --card-background: #ffffff;
+    --text-color: #333333;
+    --korean-color: #8338ec;
+    --english-color: #06d6a0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hahmlet', serif;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.subtitle {
+    font-size: 1.3rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.fancy-underline {
+    height: 5px;
+    width: 100px;
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    margin: 0 auto 30px;
+    border-radius: 5px;
+}
+
+.card {
+    background-color: var(--card-background);
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.section-title {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    position: relative;
+    display: inline-block;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    border-radius: 3px;
+}
+
+.language-comparison {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (min-width: 768px) {
+    .language-comparison {
+        flex-direction: row;
+    }
+}
+
+.language-card {
+    flex: 1;
+    position: relative;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.korean {
+    background-color: rgba(131, 56, 236, 0.1);
+    border-left: 5px solid var(--korean-color);
+}
+
+.english {
+    background-color: rgba(6, 214, 160, 0.1);
+    border-left: 5px solid var(--english-color);
+}
+
+.language-label {
+    position: absolute;
+    top: -12px;
+    left: 20px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.korean .language-label {
+    background-color: var(--korean-color);
+}
+
+.english .language-label {
+    background-color: var(--english-color);
+}
+
+.sentence {
+    font-size: 1.5rem;
+    padding: 15px 0;
+    text-align: center;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.korean .sentence {
+    color: var(--korean-color);
+    font-weight: 500;
+}
+
+.english .sentence {
+    color: var(--english-color);
+    font-weight: 600;
+}
+
+.arrow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+@media (min-width: 768px) {
+    .arrow-container {
+        justify-content: center;
+        margin: 0 -40px;
+        z-index: 5;
+    }
+}
+
+.arrow {
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.arrow:hover {
+    transform: scale(1.1);
+}
+
+.explanation-section {
+    margin-top: 20px;
+}
+
+.explanation-title {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: var(--primary-color);
+}
+
+.explanation-content {
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+.highlight {
+    background: linear-gradient(to right, rgba(58, 134, 255, 0.2), rgba(255, 0, 110, 0.2));
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.phrase-list {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.phrase-item {
+    background-color: rgba(6, 214, 160, 0.15);
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-weight: 500;
+    color: #025a45;
+    border: 1px solid rgba(6, 214, 160, 0.5);
+    transition: transform 0.2s ease;
+}
+
+.phrase-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(6, 214, 160, 0.25);
+}
+
+.korean-phrase {
+    color: var(--korean-color);
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.arrow-small {
+    margin: 0 8px;
+    color: #666;
+}
+
+.example {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: rgba(231, 231, 231, 0.3);
+    border-radius: 8px;
+    border-left: 4px solid #ccc;
+}
+
+.example-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.example-item {
+    margin-bottom: 10px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.example-item::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+}
+
+.note {
+    margin-top: 15px;
+    font-style: italic;
+    color: #666;
+}
+
+.key-phrase {
+    font-weight: bold;
+    color: #025a45;
+}
+
+.alternative {
+    color: var(--korean-color);
+    font-weight: normal;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    color: #666;
+}
+
+/* Animation effects */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.container {
+    animation: fadeIn 0.8s ease-out;
+}
+
+.card {
+    animation: fadeIn 0.8s ease-out;
+}
+
+/* CSS-only tabs - Fixed to display content properly */
+.tabs {
+    width: 100%;
+}
+
+.tab-input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+.tab-labels {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ddd;
+    background-color: var(--card-background);
+    border-radius: 12px 12px 0 0;
+    padding: 10px 10px 0;
+}
+
+.tab-label {
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 5px 5px 0 0;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    margin-right: 10px;
+    border: 1px solid transparent;
+}
+
+.tab-label:hover {
+    background-color: #eee;
+}
+
+#tab1:checked ~ .tab-labels label[for="tab1"],
+#tab2:checked ~ .tab-labels label[for="tab2"],
+#tab3:checked ~ .tab-labels label[for="tab3"],
+#tab4:checked ~ .tab-labels label[for="tab4"],
+#tab5:checked ~ .tab-labels label[for="tab5"] {
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    color: white;
+    border-bottom: none;
+}
+
+.tab-content {
+    display: none;
+    padding: 30px;
+    background-color: var(--card-background);
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Show active tab content - Fixed to ensure all tabs display when selected */
+#tab1:checked ~ .tab-content-1,
+#tab2:checked ~ .tab-content-2,
+#tab3:checked ~ .tab-content-3,
+#tab4:checked ~ .tab-content-4,
+#tab5:checked ~ .tab-content-5 {
+    display: block;
+}
+
+/* Process steps */
+.process-steps {
+    margin: 15px 0;
+    padding: 10px;
+    background-color: rgba(231, 231, 231, 0.3);
+    border-radius: 8px;
+}
+
+.process-step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.step-arrow {
+    color: var(--secondary-color);
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.step-text {
+    flex: 1;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-left: 3px solid var(--primary-color);
+}
+
+.step-note {
+    margin-left: 35px;
+    font-style: italic;
+    color: #666;
+    font-size: 0.9rem;
+}
