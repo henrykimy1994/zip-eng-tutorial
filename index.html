@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=5.0">
+    <meta name="description" content="Modern responsive calendar with special dates">
+    <title>Modern Calendar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="calendar-header">
+            <h1>Calendar</h1>
+            <div class="controls">
+                <select id="monthSelect" class="select-control" aria-label="Select month">
+                    <option value="0">January</option>
+                    <option value="1">February</option>
+                    <option value="2">March</option>
+                    <option value="3">April</option>
+                    <option value="4">May</option>
+                    <option value="5">June</option>
+                    <option value="6">July</option>
+                </select>
+                <select id="yearSelect" class="select-control" aria-label="Select year">
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                </select>
+            </div>
+        </header>
+        
+        <div class="calendar-grid" role="grid" aria-label="Calendar">
+            <div class="weekday-header" role="columnheader">Sun</div>
+            <div class="weekday-header" role="columnheader">Mon</div>
+            <div class="weekday-header" role="columnheader">Tue</div>
+            <div class="weekday-header" role="columnheader">Wed</div>
+            <div class="weekday-header" role="columnheader">Thu</div>
+            <div class="weekday-header" role="columnheader">Fri</div>
+            <div class="weekday-header" role="columnheader">Sat</div>
+            
+            <div id="calendarDays" class="calendar-days"></div>
+        </div>
+    </div>
+    
+    <script src="specialDates.js"></script>
+    <script src="calendar.js"></script>
+</body>
+</html>
