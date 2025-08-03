@@ -2,6 +2,7 @@ class ModernCalendar {
     constructor() {
         this.currentDate = new Date();
         this.currentMonth = this.currentDate.getMonth();
+        console.log(this.currentMonth);
         this.currentYear = this.currentDate.getFullYear();
         this.selectedMonth = this.currentMonth;
         this.selectedYear = this.currentYear;
@@ -33,24 +34,13 @@ class ModernCalendar {
     
     setInitialValues() {
         // Set current month and year as selected if they're within range
-        if (this.currentYear >= 2024 && this.currentYear <= 2025) {
             this.yearSelect.value = this.currentYear;
             this.selectedYear = this.currentYear;
             
-            if (this.currentMonth <= 6) { // 0-6 for Jan-July
-                this.monthSelect.value = this.currentMonth;
-                this.selectedMonth = this.currentMonth;
-            } else {
-                this.monthSelect.value = 6; // Default to July if current month is beyond July
-                this.selectedMonth = 6;
-            }
-        } else {
-            // Default to first available option
-            this.yearSelect.value = 2024;
-            this.monthSelect.value = 0;
-            this.selectedYear = 2024;
-            this.selectedMonth = 0;
-        }
+            console.log(this.currentMonth);
+            
+            this.monthSelect.value = this.currentMonth;
+            this.selectedMonth = this.currentMonth;
     }
     
     renderCalendar() {

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>20250803 - 4</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-theme="light">
+    <!-- Dark/Light Mode Toggle Button -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+        <span class="sun-icon">☀️</span>
+        <span class="moon-icon">🌙</span>
+    </button>
+
+    <div class="container">
+        <header>
+            <h1>20250803 - 4</h1>
+            <div class="fancy-underline"></div>
+        </header>
+
+        <main>
+            <div class="tabs card">
+                <input type="radio" id="tab1" name="tabs" class="tab-input" checked>
+                <input type="radio" id="tab2" name="tabs" class="tab-input">
+                
+                <div class="tab-labels">
+                    <label for="tab1" class="tab-label">I have been vs I had been</label>
+                    <label for="tab2" class="tab-label">So vs That's why</label>
+                </div>
+                
+                <!-- Tab 1: I have been vs I had been -->
+                <div class="tab-content tab-content-1" id="content1">
+                    <div class="explanation-section">
+                        <h2 class="section-title">I have been vs I had been 완벽 비교</h2>
+                        <div class="explanation-content">
+                            <h3 class="explanation-title">1. <span class="highlight">기본 개념 차이</span></h3>
+                            
+                            <div class="language-comparison">
+                                <div class="language-card korean">
+                                    <span class="language-label">현재완료진행</span>
+                                    <div class="sentence">
+                                        I have been studying
+                                    </div>
+                                </div>
+                                    
+                                <div class="arrow-container">
+                                    <div class="arrow">vs</div>
+                                </div>
+                                    
+                                <div class="language-card english">
+                                    <span class="language-label">과거완료진행</span>
+                                    <div class="sentence">
+                                        I had been studying
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="process-steps">
+                                <div class="process-step">
+                                    <div class="step-text">I have been → 과거부터 지금까지 계속</div>
+                                    <span class="step-arrow">vs</span>
+                                    <div class="step-text">I had been → 과거의 어느 시점까지 계속</div>
+                                </div>
+                                <div class="step-note">현재와의 연결성이 핵심 차이점입니다!</div>
+                            </div>
+
+                            <h3 class="explanation-title">2. 사용 상황</h3>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">I have been → 현재도 계속 중이거나 방금 끝남</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">I had been → 과거의 특정 시점 이전까지</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">3. 10가지 비교 예문</h3>
+                            <div class="example">
+                                <div class="example-label">현재완료진행 (I have been) 예문:</div>
+                                <div class="example-item">
+                                    I <span class="key-phrase">have been working</span> here for 3 years.
+                                    <br><span class="alternative">(나는 여기서 3년째 일하고 있다. - 현재도 계속)</span>
+                                </div>
+                                <div class="example-item">
+                                    She <span class="key-phrase">has been studying</span> English since morning.
+                                    <br><span class="alternative">(그녀는 아침부터 영어를 공부하고 있다. - 현재도 계속)</span>
+                                </div>
+                                <div class="example-item">
+                                    They <span class="key-phrase">have been living</span> in Seoul for 5 years.
+                                    <br><span class="alternative">(그들은 서울에서 5년째 살고 있다. - 현재도 계속)</span>
+                                </div>
+                                <div class="example-item">
+                                    I <span class="key-phrase">have been feeling</span> tired lately.
+                                    <br><span class="alternative">(나는 최근에 계속 피곤함을 느끼고 있다. - 현재도 계속)</span>
+                                </div>
+                                <div class="example-item">
+                                    We <span class="key-phrase">have been waiting</span> for the bus for 30 minutes.
+                                    <br><span class="alternative">(우리는 30분째 버스를 기다리고 있다. - 현재도 계속)</span>
+                                </div>
+                            </div>
+
+                            <div class="example">
+                                <div class="example-label">과거완료진행 (I had been) 예문:</div>
+                                <div class="example-item">
+                                    I <span class="key-phrase">had been working</span> there for 3 years when I quit.
+                                    <br><span class="alternative">(내가 그만둘 때 그곳에서 3년 동안 일했었다. - 과거의 특정 시점까지)</span>
+                                </div>
+                                <div class="example-item">
+                                    She <span class="key-phrase">had been studying</span> English before she moved to Korea.
+                                    <br><span class="alternative">(그녀는 한국으로 이사 오기 전에 영어를 공부했었다. - 과거의 특정 시점까지)</span>
+                                </div>
+                                <div class="example-item">
+                                    They <span class="key-phrase">had been living</span> in Seoul before they moved to Busan.
+                                    <br><span class="alternative">(그들은 부산으로 이사가기 전에 서울에서 살았었다. - 과거의 특정 시점까지)</span>
+                                </div>
+                                <div class="example-item">
+                                    I <span class="key-phrase">had been feeling</span> sick until I took the medicine.
+                                    <br><span class="alternative">(약을 먹을 때까지 아팠었다. - 과거의 특정 시점까지)</span>
+                                </div>
+                                <div class="example-item">
+                                    We <span class="key-phrase">had been waiting</span> for 30 minutes when the bus finally arrived.
+                                    <br><span class="alternative">(버스가 마침내 도착했을 때 우리는 30분 동안 기다렸었다. - 과거의 특정 시점까지)</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">4. <span class="highlight">핵심 구분 포인트</span></h3>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">have been + for/since → 현재도 계속</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">had been + when/before/until → 과거의 특정 시점까지</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">have been + lately/recently → 최근 계속</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">had been + past action → 과거 행동 이전까지</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 2: So vs That's why -->
+                <div class="tab-content tab-content-2" id="content2">
+                    <div class="explanation-section">
+                        <h2 class="section-title">So vs That's why 완벽 비교</h2>
+                        <div class="explanation-content">
+                            <h3 class="explanation-title">1. <span class="highlight">기본 개념 차이</span></h3>
+                            
+                            <div class="language-comparison">
+                                <div class="language-card korean">
+                                    <span class="language-label">So</span>
+                                    <div class="sentence">
+                                        문장 연결용 접속사
+                                    </div>
+                                </div>
+                                    
+                                <div class="arrow-container">
+                                    <div class="arrow">vs</div>
+                                </div>
+                                    
+                                <div class="language-card english">
+                                    <span class="language-label">That's why</span>
+                                    <div class="sentence">
+                                        이유 설명용 표현
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="process-steps">
+                                <div class="process-step">
+                                    <div class="step-text">So → 원인과 결과를 자연스럽게 연결</div>
+                                    <span class="step-arrow">vs</span>
+                                    <div class="step-text">That's why → 이미 언급된 결과의 이유를 강조</div>
+                                </div>
+                                <div class="step-note">문맥과 강조하고 싶은 부분에 따라 선택하세요!</div>
+                            </div>
+
+                            <h3 class="explanation-title">2. 사용 패턴</h3>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">원인 + so + 결과</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">결과. That's why + 원인</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">3. 10가지 비교 예문</h3>
+                            <div class="example">
+                                <div class="example-label">So 사용 예문 (원인 → 결과):</div>
+                                <div class="example-item">
+                                    It was raining, <span class="key-phrase">so</span> I stayed home.
+                                    <br><span class="alternative">(비가 와서 집에 있었다.)</span>
+                                </div>
+                                <div class="example-item">
+                                    I was tired, <span class="key-phrase">so</span> I went to bed early.
+                                    <br><span class="alternative">(피곤해서 일찍 잤다.)</span>
+                                </div>
+                                <div class="example-item">
+                                    The food was delicious, <span class="key-phrase">so</span> I ate too much.
+                                    <br><span class="alternative">(음식이 맛있어서 너무 많이 먹었다.)</span>
+                                </div>
+                                <div class="example-item">
+                                    I had no money, <span class="key-phrase">so</span> I couldn't buy the book.
+                                    <br><span class="alternative">(돈이 없어서 책을 살 수 없었다.)</span>
+                                </div>
+                                <div class="example-item">
+                                    She studied hard, <span class="key-phrase">so</span> she passed the exam.
+                                    <br><span class="alternative">(열심히 공부해서 시험에 합격했다.)</span>
+                                </div>
+                            </div>
+
+                            <div class="example">
+                                <div class="example-label">That's why 사용 예문 (결과 → 이유 강조):</div>
+                                <div class="example-item">
+                                    I stayed home. <span class="key-phrase">That's why</span> I missed the meeting.
+                                    <br><span class="alternative">(집에 있었다. 그래서 회의를 놓쳤다.)</span>
+                                </div>
+                                <div class="example-item">
+                                    I went to bed early. <span class="key-phrase">That's why</span> I feel refreshed today.
+                                    <br><span class="alternative">(일찍 잤다. 그래서 오늘 상쾌하다.)</span>
+                                </div>
+                                <div class="example-item">
+                                    I ate too much. <span class="key-phrase">That's why</span> I have a stomachache.
+                                    <br><span class="alternative">(너무 많이 먹었다. 그래서 배가 아프다.)</span>
+                                </div>
+                                <div class="example-item">
+                                    I couldn't buy the book. <span class="key-phrase">That's why</span> I borrowed it from the library.
+                                    <br><span class="alternative">(책을 살 수 없었다. 그래서 도서관에서 빌렸다.)</span>
+                                </div>
+                                <div class="example-item">
+                                    She passed the exam. <span class="key-phrase">That's why</span> she's so happy today.
+                                    <br><span class="alternative">(시험에 합격했다. 그래서 오늘 너무 기쁘다.)</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">4. <span class="highlight">선택 가이드</span></h3>
+                            <div class="language-comparison" style="margin-top: 20px;">
+                                <div class="language-card korean">
+                                    <span class="language-label">So 선택 시기</span>
+                                    <div class="sentence">
+                                        원인을 먼저 말하고 자연스럽게 결과로 이어갈 때
+                                    </div>
+                                </div>
+                                    
+                                <div class="arrow-container">
+                                    <div class="arrow">vs</div>
+                                </div>
+                                    
+                                <div class="language-card english">
+                                    <span class="language-label">That's why 선택 시기</span>
+                                    <div class="sentence">
+                                        결과를 먼저 언급하고 그 이유를 강조하고 싶을 때
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">So → 더 자연스러운 대화 흐름</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">That's why → 이유에 대한 강조와 설명</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">So → 한 문장으로 연결</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">That's why → 두 문장으로 분리하여 강조</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">5. <span class="highlight">실전 활용 팁</span></h3>
+                            <div class="example">
+                                <div class="example-label">상황별 선택 가이드:</div>
+                                <div class="example-item">
+                                    <strong>일상 대화:</strong> <span class="key-phrase">So</span>를 더 많이 사용
+                                    <br><span class="alternative">(자연스럽고 부드러운 연결)</span>
+                                </div>
+                                <div class="example-item">
+                                    <strong>설명이나 이유 강조:</strong> <span class="key-phrase">That's why</span> 사용
+                                    <br><span class="alternative">(명확한 인과관계 설명)</span>
+                                </div>
+                                <div class="example-item">
+                                    <strong>스토리텔링:</strong> <span class="key-phrase">So</span>로 흐름 연결
+                                    <br><span class="alternative">(이야기의 자연스러운 전개)</span>
+                                </div>
+                                <div class="example-item">
+                                    <strong>문제 해결 설명:</strong> <span class="key-phrase">That's why</span>로 해결책 제시
+                                    <br><span class="alternative">(논리적 설명과 결론)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <a href="/index.html" class="home-button">홈으로가기</a>
+        </footer>
+    </div>
+    <script>
+        // Theme toggle functionality
+        const themeToggle = document.getElementById('themeToggle');
+        const body = document.body;
+
+        // Check for saved theme preference or default to 'light'
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        body.setAttribute('data-theme', currentTheme);
+
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = body.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            
+            body.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        });
+    </script>
+</body>
+</html>
