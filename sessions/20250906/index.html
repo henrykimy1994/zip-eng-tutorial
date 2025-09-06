@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>20250906 - 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-theme="light">
+    <!-- Dark/Light Mode Toggle Button -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+        <span class="sun-icon">☀️</span>
+        <span class="moon-icon">🌙</span>
+    </button>
+
+    <div class="container">
+        <header>
+            <h1>20250906 - 1</h1>
+            <div class="fancy-underline"></div>
+        </header>
+
+        <main>
+            <div class="tabs card">
+                <input type="radio" id="tab1" name="tabs" class="tab-input" checked>
+                <input type="radio" id="tab2" name="tabs" class="tab-input">
+                <input type="radio" id="tab3" name="tabs" class="tab-input">
+                <input type="radio" id="tab4" name="tabs" class="tab-input">
+                <input type="radio" id="tab5" name="tabs" class="tab-input">
+                <input type="radio" id="tab6" name="tabs" class="tab-input">
+                <input type="radio" id="tab7" name="tabs" class="tab-input">
+                
+                <div class="tab-labels">
+                    <label for="tab1" class="tab-label">my 추가</label>
+                    <label for="tab2" class="tab-label">행사 진행</label>
+                    <label for="tab3" class="tab-label">to vs through</label>
+                    <label for="tab4" class="tab-label">ago 사용</label>
+                    <label for="tab5" class="tab-label">시간 표현</label>
+                    <label for="tab6" class="tab-label">시간대</label>
+                    <label for="tab7" class="tab-label">매일 저녁</label>
+                </div>
+                
+                <!-- Tab 1: my 추가 -->
+                <div class="tab-content tab-content-1" id="content1">
+                    <div class="language-comparison">
+                        <div class="language-card korean">
+                            <span class="language-label">원문</span>
+                            <div class="sentence">
+                                I just finished homework.
+                            </div>
+                        </div>
+                            
+                        <div class="arrow-container">
+                            <div class="arrow">→</div>
+                        </div>
+                            
+                        <div class="language-card english">
+                            <span class="language-label">수정</span>
+                            <div class="sentence">
+                                I just finished my homework.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="process-steps">
+                        <div class="process-step">
+                            <div class="step-text">I just finished homework.</div>
+                            <span class="step-arrow">→</span>
+                            <div class="step-text">I just finished my homework.</div>
+                        </div>
+                        <div class="step-note">소유격 'my'를 추가하여 더 자연스럽게 만들어요!</div>
+                    </div>
+
+                    <div class="explanation-section">
+                        <h2 class="section-title">핵심 포인트</h2>
+                        <div class="explanation-content">
+                            <p>
+                                영어에서 개인적인 물건이나 활동에 대해 말할 때 소유격을 사용하는 것이 더 자연스럽습니다.
+                            </p>
+                            
+                            <h3 class="explanation-title">1. <span class="highlight">소유격 사용의 중요성</span></h3>
+                            <p>
+                                개인적인 활동이나 소유물에 대해 말할 때 'my'를 사용하면 더 자연스러운 영어가 됩니다:
+                            </p>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">my homework → 내 숙제</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">my work → 내 일</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">my project → 내 프로젝트</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">2. 다른 예시들</h3>
+                            <p>
+                                'my'를 사용해야 하는 다른 상황들:
+                            </p>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">I finished my assignment</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">I did my laundry</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">I cleaned my room</span>
+                                </div>
+                            </div>
+
+                            <div class="example">
+                                <div class="example-label">완성 문장 예시:</div>
+                                <div class="example-item">
+                                    I just finished <span class="key-phrase">my homework</span> for tomorrow's class.
+                                    <br><span class="alternative">(내일 수업을 위한 숙제를 방금 끝냈다.)</span>
+                                </div>
+                                <div class="example-item">
+                                    I completed <span class="key-phrase">my project</span> on time.
+                                    <br><span class="alternative">(내 프로젝트를 시간에 맞춰 완성했다.)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 2: 행사 진행 -->
+                <div class="tab-content tab-content-2" id="content2">
+                    <div class="explanation-section">
+                        <h2 class="section-title">행사가 진행되다 표현하기</h2>
+                        <div class="explanation-content">
+                            <h3 class="explanation-title">1. <span class="highlight">'runs' 동사 사용</span></h3>
+                            <p>
+                                행사나 프로그램이 진행되는 것을 표현할 때 'runs' 동사를 사용합니다:
+                            </p>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">The event runs → 행사가 진행된다</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">The program runs → 프로그램이 운영된다</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">The festival runs → 축제가 열린다</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">2. 기간 표현과 함께 사용</h3>
+                            <p>
+                                행사의 기간을 표현할 때 'runs'와 함께 사용하는 전치사들:
+                            </p>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">runs from ~ to → ~부터 ~까지</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">runs for → ~동안</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">runs until → ~까지</span>
+                                </div>
+                            </div>
+
+                            <div class="example">
+                                <div class="example-label">행사 진행 예문:</div>
+                                <div class="example-item">
+                                    The conference <span class="key-phrase">runs from Monday to Friday</span>.
+                                    <br><span class="alternative">(회의는 월요일부터 금요일까지 진행된다.)</span>
+                                </div>
+                                <div class="example-item">
+                                    The summer camp <span class="key-phrase">runs for two weeks</span>.
+                                    <br><span class="alternative">(여름 캠프는 2주 동안 진행된다.)</span>
+                                </div>
+                                <div class="example-item">
+                                    The exhibition <span class="key-phrase">runs until December</span>.
+                                    <br><span class="alternative">(전시회는 12월까지 진행된다.)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 3: to vs through 비교 -->
+                <div class="tab-content tab-content-3" id="content3">
+                    <div class="language-comparison">
+                        <div class="language-card korean">
+                            <span class="language-label">옵션 1</span>
+                            <div class="sentence">
+                                The event runs from Monday to Friday.
+                            </div>
+                        </div>
+                            
+                        <div class="arrow-container">
+                            <div class="arrow">vs</div>
+                        </div>
+                            
+                        <div class="language-card english">
+                            <span class="language-label">옵션 2</span>
+                            <div class="sentence">
+                                The event runs from Monday through Friday.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="explanation-section">
+                        <h2 class="section-title">to vs through 비교</h2>
+                        <div class="explanation-content">
+                            <h3 class="explanation-title">1. <span class="highlight">두 가지 모두 사용 가능</span></h3>
+                            <p>
+                                기간을 표현할 때 'to'와 'through' 모두 올바른 표현입니다:
+                            </p>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">from Monday to Friday → 월요일부터 금요일까지</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">from Monday through Friday → 월요일부터 금요일까지</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">2. 미묘한 차이점</h3>
+                            <p>
+                                'to'와 'through'의 미묘한 뉘앙스 차이:
+                            </p>
+                            <div class="language-comparison" style="margin-top: 20px;">
+                                <div class="language-card korean">
+                                    <span class="language-label">to</span>
+                                    <div class="sentence">
+                                        끝나는 지점 강조
+                                    </div>
+                                </div>
+                                    
+                                <div class="arrow-container">
+                                    <div class="arrow">vs</div>
+                                </div>
+                                    
+                                <div class="language-card english">
+                                    <span class="language-label">through</span>
+                                    <div class="sentence">
+                                        전체 기간 강조
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="example">
+                                <div class="example-label">다양한 예문:</div>
+                                <div class="example-item">
+                                    The sale runs <span class="key-phrase">from January to March</span>.
+                                    <br><span class="alternative">(세일은 1월부터 3월까지 진행된다.)</span>
+                                </div>
+                                <div class="example-item">
+                                    The festival runs <span class="key-phrase">from June through August</span>.
+                                    <br><span class="alternative">(축제는 6월부터 8월까지 계속 진행된다.)</span>
+                                </div>
+                                <div class="example-item">
+                                    The course runs <span class="key-phrase">from week 1 to week 12</span>.
+                                    <br><span class="alternative">(과정은 1주차부터 12주차까지 진행된다.)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 4: ago 사용 -->
+                <div class="tab-content tab-content-4" id="content4">
+                    <div class="language-comparison">
+                        <div class="language-card korean">
+                            <span class="language-label">원문</span>
+                            <div class="sentence">
+                                The summer break ended about two weeks.
+                            </div>
+                        </div>
+                        
+                        <div class="arrow-container">
+                            <div class="arrow">→</div>
+                        </div>
+                        
+                        <div class="language-card english">
+                            <span class="language-label">수정</span>
+                            <div class="sentence">
+                                The summer break ended about two weeks ago.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="explanation-section">
+                        <h2 class="section-title">ago 사용법</h2>
+                        <div class="explanation-content">
+                            <h3 class="explanation-title">1. <span class="highlight">'ago' 필수 사용</span></h3>
+                            <p>
+                                과거의 시점을 표현할 때 반드시 'ago'를 사용해야 합니다:
+                            </p>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">two weeks ago → 2주 전</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">three days ago → 3일 전</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">a year ago → 1년 전</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">2. ago 사용 패턴</h3>
+                            <p>
+                                'ago'와 함께 사용하는 시간 표현들:
+                            </p>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">a few minutes ago → 몇 분 전</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">several hours ago → 몇 시간 전</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">about a month ago → 약 한 달 전</span>
+                                </div>
+                            </div>
+
+                            <div class="example">
+                                <div class="example-label">ago 사용 예문:</div>
+                                <div class="example-item">
+                                    The summer break ended <span class="key-phrase">about two weeks ago</span>.
+                                    <br><span class="alternative">(여름 방학은 약 2주 전에 끝났다.)</span>
+                                </div>
+                                <div class="example-item">
+                                    I graduated from university <span class="key-phrase">three years ago</span>.
+                                    <br><span class="alternative">(나는 3년 전에 대학을 졸업했다.)</span>
+                                </div>
+                                <div class="example-item">
+                                    We moved to this city <span class="key-phrase">six months ago</span>.
+                                    <br><span class="alternative">(우리는 6개월 전에 이 도시로 이사왔다.)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 5: 시간 표현 -->
+                <div class="tab-content tab-content-5" id="content5">
+                    <div class="language-comparison">
+                        <div class="language-card korean">
+                            <span class="language-label">기본</span>
+                            <div class="sentence">
+                                I arrived at my parents' house at 4:30PM.
+                            </div>
+                        </div>
+                        
+                        <div class="arrow-container">
+                            <div class="arrow">OR</div>
+                        </div>
+                        
+                        <div class="language-card english">
+                            <span class="language-label">대안</span>
+                            <div class="sentence">
+                                I arrived at my parents' house at 4:30 in the afternoon.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="explanation-section">
+                        <h2 class="section-title">시간 표현 방법</h2>
+                        <div class="explanation-content">
+                            <h3 class="explanation-title">1. <span class="highlight">PM vs in the afternoon</span></h3>
+                            <p>
+                                시간을 표현하는 두 가지 방법 모두 올바릅니다:
+                            </p>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">4:30PM → 오후 4시 30분 (간단)</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">4:30 in the afternoon → 오후 4시 30분 (상세)</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">2. 다른 시간대 표현</h3>
+                            <p>
+                                여러 시간대를 표현하는 방법들:
+                            </p>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">10:00AM = 10:00 in the morning</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">7:00PM = 7:00 in the evening</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">11:00PM = 11:00 at night</span>
+                                </div>
+                            </div>
+
+                            <div class="example">
+                                <div class="example-label">시간 표현 예문:</div>
+                                <div class="example-item">
+                                    I arrived at my parents' house <span class="key-phrase">at 4:30 in the afternoon</span>.
+                                    <br><span class="alternative">(나는 오후 4시 30분에 부모님 집에 도착했다.)</span>
+                                </div>
+                                <div class="example-item">
+                                    The meeting starts <span class="key-phrase">at 9:00 in the morning</span>.
+                                    <br><span class="alternative">(회의는 오전 9시에 시작한다.)</span>
+                                </div>
+                                <div class="example-item">
+                                    We had dinner <span class="key-phrase">at 6:30 in the evening</span>.
+                                    <br><span class="alternative">(우리는 저녁 6시 30분에 저녁을 먹었다.)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 6: 시간대 -->
+                <div class="tab-content tab-content-6" id="content6">
+                    <div class="explanation-section">
+                        <h2 class="section-title">시간대 구분하기</h2>
+                        <div class="explanation-content">
+                            <h3 class="explanation-title">1. <span class="highlight">하루 시간대 구분</span></h3>
+                            <p>
+                                영어에서 하루를 나누는 기준:
+                            </p>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">Morning: 5(6)AM - 12PM → 아침</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">Afternoon: 12PM - 5PM → 오후</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">Evening: 5PM - 8(9)PM → 저녁</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">Night: 8(9)PM - 12AM → 밤</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">Midnight(morning): 12AM - 5(6)AM → 새벽</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">2. 실제 사용 예시</h3>
+                            <p>
+                                시간대별 표현 예시:
+                            </p>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">Good morning! → 아침 인사</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">Good afternoon! → 오후 인사</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">Good evening! → 저녁 인사</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">Good night! → 밤 인사</span>
+                                </div>
+                            </div>
+
+                            <div class="example">
+                                <div class="example-label">시간대별 활동 예문:</div>
+                                <div class="example-item">
+                                    I usually exercise <span class="key-phrase">in the morning</span> around 7AM.
+                                    <br><span class="alternative">(나는 보통 오전 7시경 아침에 운동한다.)</span>
+                                </div>
+                                <div class="example-item">
+                                    Let's meet <span class="key-phrase">in the afternoon</span> at 2PM.
+                                    <br><span class="alternative">(오후 2시에 만나자.)</span>
+                                </div>
+                                <div class="example-item">
+                                    I went for a walk <span class="key-phrase">in the evening</span> at 8PM.
+                                    <br><span class="alternative">(나는 저녁 8시에 산책을 갔다.)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 7: 매일 저녁 -->
+                <div class="tab-content tab-content-7" id="content7">
+                    <div class="language-comparison">
+                        <div class="language-card korean">
+                            <span class="language-label">문장 구조</span>
+                            <div class="sentence">
+                                I went for a walk with my mom at 8PM for about an hour.
+                            </div>
+                        </div>
+                        
+                        <div class="arrow-container">
+                            <div class="arrow">+</div>
+                        </div>
+                        
+                        <div class="language-card english">
+                            <span class="language-label">매일 저녁</span>
+                            <div class="sentence">
+                                I usually go for a walk with my dog every evening.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="explanation-section">
+                        <h2 class="section-title">매일 저녁 표현하기</h2>
+                        <div class="explanation-content">
+                            <h3 class="explanation-title">1. <span class="highlight">문장에서 시간은 나중에</span></h3>
+                            <p>
+                                영어 문장에서 시간 정보는 보통 문장 끝에 위치합니다:
+                            </p>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">동사 + 목적어 + 시간 → 기본 순서</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">went for a walk + with my mom + at 8PM</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">2. <span class="highlight">'매일 저녁' 표현</span></h3>
+                            <p>
+                                반복되는 행동을 표현할 때:
+                            </p>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">every evening → 매일 저녁</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">every morning → 매일 아침</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">every night → 매일 밤</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">3. 산책 관련 표현</h3>
+                            <p>
+                                산책을 표현하는 다양한 방법들:
+                            </p>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">go for a walk → 산책하다</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">take a walk → 산책하다</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">walk the dog → 개를 산책시키다</span>
+                                </div>
+                            </div>
+
+                            <div class="example">
+                                <div class="example-label">산책 관련 예문:</div>
+                                <div class="example-item">
+                                    I went for a walk with my mom <span class="key-phrase">at 8PM for about an hour</span>.
+                                    <br><span class="alternative">(나는 엄마와 오후 8시에 약 한 시간 동안 산책했다.)</span>
+                                </div>
+                                <div class="example-item">
+                                    I usually go for a walk with my dog <span class="key-phrase">every evening</span>.
+                                    <br><span class="alternative">(나는 보통 매일 저녁 개와 함께 산책한다.)</span>
+                                </div>
+                                <div class="example-item">
+                                    We take a walk in the park <span class="key-phrase">every weekend</span>.
+                                    <br><span class="alternative">(우리는 매주 주말에 공원에서 산책한다.)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <a href="/index.html" class="home-button">홈으로가기</a>
+        </footer>
+    </div>
+    <script>
+        // Theme toggle functionality
+        const themeToggle = document.getElementById('themeToggle');
+        const body = document.body;
+
+        // Check for saved theme preference or default to 'light'
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        body.setAttribute('data-theme', currentTheme);
+
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = body.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            
+            body.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        });
+    </script>
+</body>
+</html>
