@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>20251207 - 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Dark/Light Mode Toggle Button -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+        <span class="sun-icon">☀️</span>
+        <span class="moon-icon">🌙</span>
+    </button>
+
+    <div class="container">
+        <header>
+            <h1>20251207 - 1</h1>
+            <div class="fancy-underline"></div>
+        </header>
+
+        <main>
+            <div class="tabs card">
+                <input type="radio" id="tab1" name="tabs" class="tab-input" checked>
+                <input type="radio" id="tab2" name="tabs" class="tab-input">
+                <input type="radio" id="tab3" name="tabs" class="tab-input">
+                <input type="radio" id="tab4" name="tabs" class="tab-input">
+                
+                <div class="tab-labels">
+                    <label for="tab1" class="tab-label">지난 수업 리뷰</label>
+                    <label for="tab2" class="tab-label">크리스마스 대화</label>
+                    <label for="tab3" class="tab-label">주요 표현법</label>
+                    <label for="tab4" class="tab-label">문법 포인트</label>
+                </div>
+                
+                <!-- Tab 1: 지난 수업 리뷰 -->
+                <div class="tab-content tab-content-1" id="content1">
+                    <div class="explanation-section">
+                        <h2 class="section-title">지난 수업 리뷰</h2>
+                        <div class="explanation-content">
+                            
+                            <h3 class="explanation-title">1. 수량 표현 - "Each"의 활용</h3>
+                            <div class="example">
+                                <div class="example-item">
+                                    <span class="korean-phrase">각각 2개씩 주시겠어요?</span>
+                                    <span class="arrow-small">→</span>
+                                    <span class="key-phrase">Can I get two of each?</span>
+                                </div>
+                                <div class="example-item">
+                                    <span class="korean-phrase">각각 1개씩 주세요.</span>
+                                    <span class="arrow-small">→</span>
+                                    <span class="key-phrase">Can I get one of each?</span>
+                                </div>
+                                <div class="example-item">
+                                    <span class="korean-phrase">각 색상별로 3개씩 필요해요.</span>
+                                    <span class="arrow-small">→</span>
+                                    <span class="key-phrase">I need three of each color.</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">2. 커피 만들기 표현</h3>
+                            <div class="example">
+                                <div class="example-item">
+                                    <span class="korean-phrase">커피콩 17그램을 계량했습니다.</span>
+                                    <span class="arrow-small">→</span>
+                                    <span class="key-phrase">I measured 17 grams of coffee beans.</span>
+                                </div>
+                                <div class="example-item">
+                                    <span class="korean-phrase">그라인더로 갈았습니다.</span>
+                                    <span class="arrow-small">→</span>
+                                    <span class="key-phrase">I ground them in a grinder.</span>
+                                    <br><span class="alternative">또는: I ground them using a grinder.</span>
+                                    <div class="note">⚡ 과거형: grind → ground</div>
+                                </div>
+                                <div class="example-item">
+                                    <span class="korean-phrase">머신으로 추출했습니다.</span>
+                                    <span class="arrow-small">→</span>
+                                    <span class="key-phrase">I extracted the coffee using a machine.</span>
+                                    <br><span class="alternative">또는: I extracted the coffee with a machine.</span>
+                                </div>
+                                <div class="example-item">
+                                    <span class="korean-phrase">커피를 내렸습니다.</span>
+                                    <span class="arrow-small">→</span>
+                                    <span class="key-phrase">I brewed the coffee.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 2: 크리스마스 대화 -->
+                <div class="tab-content tab-content-2" id="content2">
+                    <div class="explanation-section">
+                        <h2 class="section-title">크리스마스 계획 대화</h2>
+                        <div class="explanation-content">
+                            
+                            <div class="language-comparison">
+                                <div class="language-card korean">
+                                    <span class="language-label">한국어</span>
+                                    <div class="sentence">
+                                        안녕, 올해 크리스마스때 계획이 있어?
+                                    </div>
+                                </div>
+                                
+                                <div class="arrow-container">
+                                    <div class="arrow">→</div>
+                                </div>
+                                
+                                <div class="language-card english">
+                                    <span class="language-label">English</span>
+                                    <div class="sentence">
+                                        Hey! Do you have any plans for Christmas this year?
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="language-comparison" style="margin-top: 20px;">
+                                <div class="language-card korean">
+                                    <span class="language-label">한국어</span>
+                                    <div class="sentence">
+                                        나는 부모님집에 가서 함께 저녁을 먹고 선물을 열 거야.
+                                    </div>
+                                </div>
+                                
+                                <div class="arrow-container">
+                                    <div class="arrow">→</div>
+                                </div>
+                                
+                                <div class="language-card english">
+                                    <span class="language-label">English</span>
+                                    <div class="sentence">
+                                        Yeah, I'm going to my parents' house. We're going to have dinner together and open gifts.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="process-steps">
+                                <div class="process-step">
+                                    <div class="step-text">너는?</div>
+                                    <span class="step-arrow">→</span>
+                                    <div class="step-text">What about you?</div>
+                                </div>
+                            </div>
+
+                            <div class="language-comparison">
+                                <div class="language-card korean">
+                                    <span class="language-label">한국어</span>
+                                    <div class="sentence">
+                                        올해는 그냥 간단하게 하려고 - 그냥 집에서 크리스마스 관련 영화나 보려고.
+                                    </div>
+                                </div>
+                                
+                                <div class="arrow-container">
+                                    <div class="arrow">→</div>
+                                </div>
+                                
+                                <div class="language-card english">
+                                    <span class="language-label">English</span>
+                                    <div class="sentence">
+                                        I'm keeping it simple this time - just staying home and watching Christmas movies.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="language-comparison" style="margin-top: 20px;">
+                                <div class="language-card korean">
+                                    <span class="language-label">한국어</span>
+                                    <div class="sentence">
+                                        재미있겠다. 나홀로 집에 또 보는거야?
+                                    </div>
+                                </div>
+                                
+                                <div class="arrow-container">
+                                    <div class="arrow">→</div>
+                                </div>
+                                
+                                <div class="language-card english">
+                                    <span class="language-label">English</span>
+                                    <div class="sentence">
+                                        That sounds fun! Are you watching Home Alone again?
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="language-comparison" style="margin-top: 20px;">
+                                <div class="language-card korean">
+                                    <span class="language-label">한국어</span>
+                                    <div class="sentence">
+                                        당연하지! 편한 연휴 보냈으면 좋겠다~
+                                    </div>
+                                </div>
+                                
+                                <div class="arrow-container">
+                                    <div class="arrow">→</div>
+                                </div>
+                                
+                                <div class="language-card english">
+                                    <span class="language-label">English</span>
+                                    <div class="sentence">
+                                        Absolutely! I hope you have a relaxing holiday!
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="process-steps">
+                                <div class="process-step">
+                                    <div class="step-text">너도~</div>
+                                    <span class="step-arrow">→</span>
+                                    <div class="step-text">Thanks, you too!</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 3: 주요 표현법 -->
+                <div class="tab-content tab-content-3" id="content3">
+                    <div class="explanation-section">
+                        <h2 class="section-title">주요 표현법</h2>
+                        <div class="explanation-content">
+                            
+                            <h3 class="explanation-title">1. 계획 물어보기: <span class="highlight">Do you have...?</span></h3>
+                            <p>
+                                미래 계획이나 예정을 물어볼 때 사용하는 표현입니다:
+                            </p>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">Do you have any plans for...?</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">Do you have time to...?</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">Do you have anything planned?</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">2. 함께 활동하기: <span class="highlight">have/do something together</span></h3>
+                            <div class="example">
+                                <div class="example-item">
+                                    <span class="key-phrase">have dinner together</span>
+                                    <br><span class="alternative">(함께 저녁을 먹다)</span>
+                                </div>
+                                <div class="example-item">
+                                    <span class="key-phrase">open gifts</span>
+                                    <br><span class="alternative">(선물을 열다/개봉하다)</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">3. 간단하게 표현하기: <span class="highlight">keeping it simple</span></h3>
+                            <div class="example">
+                                <div class="example-item">
+                                    <span class="key-phrase">I'm keeping it simple this time</span>
+                                    <br><span class="alternative">(이번에는 간단하게 하려고)</span>
+                                </div>
+                                <div class="example-item">
+                                    <span class="key-phrase">Let's keep it low-key</span>
+                                    <br><span class="alternative">(조용하고 간단하게 하자)</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">4. 반응 표현: <span class="highlight">That sounds...</span></h3>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">That sounds fun!</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">That sounds great!</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">That sounds interesting!</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">5. 희망/바람 표현: <span class="highlight">I hope you...</span></h3>
+                            <div class="example">
+                                <div class="example-item">
+                                    <span class="key-phrase">I hope you have a relaxing holiday</span>
+                                    <br><span class="alternative">(편안한 연휴 보내길 바라)</span>
+                                </div>
+                                <div class="example-item">
+                                    <span class="key-phrase">I hope you enjoy your Christmas</span>
+                                    <br><span class="alternative">(즐거운 크리스마스 보내길 바라)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 4: 문법 포인트 -->
+                <div class="tab-content tab-content-4" id="content4">
+                    <div class="explanation-section">
+                        <h2 class="section-title">문법 포인트</h2>
+                        <div class="explanation-content">
+                            
+                            <h3 class="explanation-title">1. 현재진행형 vs 미래표현</h3>
+                            <p>
+                                가까운 미래의 확정된 계획을 말할 때 현재진행형을 사용할 수 있습니다:
+                            </p>
+                            <div class="process-steps">
+                                <div class="process-step">
+                                    <div class="step-text">going to stay home</div>
+                                    <span class="step-arrow">→</span>
+                                    <div class="step-text">staying home</div>
+                                </div>
+                                <div class="step-note">더 자연스럽고 확정적인 느낌</div>
+                            </div>
+                            
+                            <div class="example">
+                                <div class="example-item">
+                                    <span class="key-phrase">I'm staying home</span> this Christmas.
+                                    <br><span class="alternative">(이번 크리스마스에는 집에 있을 거야 - 확정)</span>
+                                </div>
+                                <div class="example-item">
+                                    <span class="key-phrase">I'm going to stay home</span> this Christmas.
+                                    <br><span class="alternative">(이번 크리스마스에 집에 있을 계획이야)</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">2. 동사형 선택: watching vs going to watch</h3>
+                            <div class="language-comparison">
+                                <div class="language-card korean">
+                                    <span class="language-label">의도/계획</span>
+                                    <div class="sentence">
+                                        going to watch
+                                    </div>
+                                </div>
+                                
+                                <div class="arrow-container">
+                                    <div class="arrow">→</div>
+                                </div>
+                                
+                                <div class="language-card english">
+                                    <span class="language-label">확정/진행</span>
+                                    <div class="sentence">
+                                        watching
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">3. 불규칙 동사 과거형: grind → ground</h3>
+                            <p>
+                                'grind'는 불규칙 동사로, 과거형이 특별합니다:
+                            </p>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">grind (현재) → ground (과거) → ground (과거분사)</span>
+                                </div>
+                            </div>
+                            <div class="example">
+                                <div class="example-item">
+                                    I <span class="key-phrase">grind</span> coffee beans every morning. (현재)
+                                </div>
+                                <div class="example-item">
+                                    I <span class="key-phrase">ground</span> them yesterday. (과거)
+                                </div>
+                                <div class="example-item">
+                                    I have <span class="key-phrase">ground</span> the beans. (현재완료)
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">4. "What about you?" 사용법</h3>
+                            <p>
+                                상대방에게 같은 질문을 되돌려 물을 때 사용하는 간단한 표현:
+                            </p>
+                            <div class="example">
+                                <div class="example-item">
+                                    A: I'm going to my parents' house. <span class="key-phrase">What about you?</span>
+                                    <br><span class="alternative">(나는 부모님 집에 갈거야. 너는?)</span>
+                                </div>
+                                <div class="example-item">
+                                    다른 표현: <span class="key-phrase">How about you?</span> / <span class="key-phrase">And you?</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <a href="/index.html" class="home-button">홈으로가기</a>
+        </footer>
+    </div>
+    <script>
+        // Theme toggle functionality
+        const themeToggle = document.getElementById('themeToggle');
+        const body = document.body;
+
+        // Check for saved theme preference or default to 'light'
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        body.setAttribute('data-theme', currentTheme);
+
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = body.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            
+            body.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        });
+    </script>
+</body>
+</html>
