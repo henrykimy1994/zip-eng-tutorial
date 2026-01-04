@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>20260104 - 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Dark/Light Mode Toggle Button -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+        <span class="sun-icon">☀️</span>
+        <span class="moon-icon">🌙</span>
+    </button>
+
+    <div class="container">
+        <header>
+            <h1>20260104 - 2</h1>
+            <div class="fancy-underline"></div>
+        </header>
+
+        <main>
+            <div class="tabs card">
+                <input type="radio" id="tab1" name="tabs" class="tab-input" checked>
+                <input type="radio" id="tab2" name="tabs" class="tab-input">
+                <input type="radio" id="tab3" name="tabs" class="tab-input">
+                <input type="radio" id="tab4" name="tabs" class="tab-input">
+                
+                <div class="tab-labels">
+                    <label for="tab1" class="tab-label">School Fair</label>
+                    <label for="tab2" class="tab-label">Exhibition</label>
+                    <label for="tab3" class="tab-label">Popularity Vote</label>
+                    <!-- <label for="tab4" class="tab-label">Grammar Points</label>  -->
+                </div>
+                
+                <!-- Tab 1: School Fair -->
+                <div class="tab-content tab-content-1" id="content1">
+                    <div class="explanation-section">
+                        <h2 class="section-title">School Fair</h2>
+                        <div class="explanation-content">
+                            
+                            <h3 class="explanation-title">1. 학교 축제 / School Fair</h3>
+                            
+                            <div class="language-comparison">
+                                <div class="language-card korean">
+                                    <span class="language-label">한국어</span>
+                                    <div class="sentence">
+                                        12월 23일 화요일에 학교 축제가 있었다.
+                                    </div>
+                                </div>
+                                
+                                <div class="arrow-container">
+                                    <div class="arrow">→</div>
+                                </div>
+                                
+                                <div class="language-card english">
+                                    <span class="language-label">English</span>
+                                    <div class="sentence">
+                                        There was a school fair on Tuesday, December 23rd.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">문법 포인트: <span class="highlight">There was/were</span></h3>
+                            <p>
+                                "There was/were"는 과거에 무언가가 존재했거나 일어났음을 나타내는 표현입니다.
+                                단수명사에는 "was", 복수명사에는 "were"를 사용합니다.
+                            </p>
+                            <div class="example">
+                                <div class="example-item">
+                                    <span class="key-phrase">There was</span> + 단수명사 (a school fair)
+                                    <br><span class="alternative">축제가 하나 있었다</span>
+                                </div>
+                                <div class="example-item">
+                                    <span class="key-phrase">There were</span> + 복수명사 (many activities)
+                                    <br><span class="alternative">많은 활동들이 있었다</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">날짜 표현: <span class="highlight">시간 전치사</span></h3>
+                            <div class="process-steps">
+                                <div class="process-step">
+                                    <div class="step-text"><span class="key-phrase">on</span> Tuesday (요일)</div>
+                                    <span class="step-arrow">→</span>
+                                    <div class="step-text"><span class="key-phrase">on</span> December 23rd (날짜)</div>
+                                </div>
+                                <div class="step-note">특정 요일이나 날짜 앞에는 "on"을 사용합니다</div>
+                            </div>
+
+                            <h3 class="explanation-title">주요 어휘</h3>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">School Fair</span>
+                                    <span class="alternative">(학교 축제)</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">Festival</span>
+                                    <span class="alternative">(축제, 페스티벌)</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">Event</span>
+                                    <span class="alternative">(행사)</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">추가 예문</h3>
+                            <div class="example">
+                                <div class="example-item">
+                                    <span class="korean-phrase">작년에 학교 축제가 있었어요.</span>
+                                    <span class="arrow-small">→</span>
+                                    <span class="key-phrase">There was a school fair last year.</span>
+                                </div>
+                                <div class="example-item">
+                                    <span class="korean-phrase">많은 학생들이 참석했어요.</span>
+                                    <span class="arrow-small">→</span>
+                                    <span class="key-phrase">There were many students who attended.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 2: Exhibition -->
+                <div class="tab-content tab-content-2" id="content2">
+                    <div class="explanation-section">
+                        <h2 class="section-title">Exhibition</h2>
+                        <div class="explanation-content">
+                            
+                            <h3 class="explanation-title">2. 전시회 / Exhibition</h3>
+
+                            <div class="language-comparison">
+                                <div class="language-card korean">
+                                    <span class="language-label">한국어</span>
+                                    <div class="sentence">
+                                        학생들이 수업시간에 했던 결과물들과 작품을 전시하는 전시회가 있었다.
+                                    </div>
+                                </div>
+                                
+                                <div class="arrow-container">
+                                    <div class="arrow">→</div>
+                                </div>
+                                
+                                <div class="language-card english">
+                                    <span class="language-label">English</span>
+                                    <div class="sentence">
+                                        There was an exhibition where students displayed projects and work they had created during class.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <h3 class="explanation-title">단계별 문장 구성</h3>
+                            <div class="example">
+                                <div class="example-item">
+                                    <span class="korean-phrase">전시회가 있었다.</span>
+                                    <span class="arrow-small">→</span>
+                                    <span class="key-phrase">There was an exhibition.</span>
+                                </div>
+                                <div class="example-item">
+                                    <span class="korean-phrase">학생들이 전시했다.</span>
+                                    <span class="arrow-small">→</span>
+                                    <span class="key-phrase">There was an exhibition where students displayed.</span>
+                                </div>
+                                <div class="example-item">
+                                    <span class="korean-phrase">프로젝트와 작품을 전시했다.</span>
+                                    <span class="arrow-small">→</span>
+                                    <span class="key-phrase">There was an exhibition where students displayed projects and work.</span>
+                                </div>
+                                <div class="example-item">
+                                    <span class="korean-phrase">그들이 만들었던 작품.</span>
+                                    <span class="arrow-small">→</span>
+                                    <span class="key-phrase">There was an exhibition where students displayed projects and work they had created.</span>
+                                </div>
+                                <div class="example-item">
+                                    <span class="korean-phrase">수업시간에 만들었던 작품.</span>
+                                    <span class="arrow-small">→</span>
+                                    <span class="key-phrase">There was an exhibition where students displayed projects and work they had created during class.</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">문법 포인트: <span class="highlight">"where"를 사용한 관계절</span></h3>
+                            <p>
+                                "Where"는 장소를 수식하는 관계부사로, 앞의 명사(exhibition)를 구체적으로 설명합니다.
+                            </p>
+                            <div class="example">
+                                <div class="example-item">
+                                    an exhibition <span class="key-phrase">where</span> students displayed...
+                                    <br><span class="alternative">학생들이 전시하는 전시회</span>
+                                    <div class="note">⚡ "where" = "at which" (전시회에서)</div>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">문법 포인트: <span class="highlight">과거완료 "had created"</span></h3>
+                            <p>
+                                과거완료 시제는 과거의 특정 시점보다 더 이전에 일어난 일을 나타냅니다.
+                            </p>
+                            <div class="process-steps">
+                                <div class="process-step">
+                                    <div class="step-text">만들었다 (과거)</div>
+                                    <span class="step-arrow">→</span>
+                                    <div class="step-text">전시했다 (그 다음)</div>
+                                </div>
+                                <div class="step-note">작품을 만든 것이 전시보다 먼저 → had created</div>
+                            </div>
+
+                            <h3 class="explanation-title">주요 어휘</h3>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">Exhibition</span>
+                                    <span class="alternative">(전시회)</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">Display</span>
+                                    <span class="alternative">(전시하다)</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">Projects</span>
+                                    <span class="alternative">(프로젝트, 과제)</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">During class</span>
+                                    <span class="alternative">(수업 중에)</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">전치사 구분: <span class="highlight">"During" vs "In" vs "While"</span></h3>
+                            <div class="example">
+                                <div class="example-item">
+                                    <span class="key-phrase">During</span> class (명사)
+                                    <br><span class="alternative">수업 중에 (기간 동안)</span>
+                                </div>
+                                <div class="example-item">
+                                    <span class="key-phrase">In</span> class
+                                    <br><span class="alternative">수업에서 (장소/상황)</span>
+                                </div>
+                                <div class="example-item">
+                                    <span class="key-phrase">While</span> they were studying (절)
+                                    <br><span class="alternative">그들이 공부하는 동안</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 3: Popularity Vote -->
+                <div class="tab-content tab-content-3" id="content3">
+                    <div class="explanation-section">
+                        <h2 class="section-title">Popularity Vote</h2>
+                        <div class="explanation-content">
+                            
+                            <h3 class="explanation-title">3. 인기투표 / Popularity Vote</h3>
+
+                            <div class="language-comparison">
+                                <div class="language-card korean">
+                                    <span class="language-label">한국어</span>
+                                    <div class="sentence">
+                                        선생님들끼리 인기투표가 있었는데 우리 반이 2등을 해서 상금으로 4만원을 받았다.
+                                    </div>
+                                </div>
+                                
+                                <div class="arrow-container">
+                                    <div class="arrow">→</div>
+                                </div>
+                                
+                                <div class="language-card english">
+                                    <span class="language-label">English</span>
+                                    <div class="sentence">
+                                        There was a popularity vote among the teachers, and my class placed second and received a prize of 40,000 won.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">단계별 문장 구성</h3>
+                            <div class="example">
+                                <div class="example-item">
+                                    <span class="korean-phrase">인기투표가 있었다.</span>
+                                    <span class="arrow-small">→</span>
+                                    <span class="key-phrase">There was a popularity vote.</span>
+                                </div>
+                                <div class="example-item">
+                                    <span class="korean-phrase">선생님들끼리 인기투표가 있었다.</span>
+                                    <span class="arrow-small">→</span>
+                                    <span class="key-phrase">There was a popularity vote among the teachers.</span>
+                                </div>
+                                <div class="example-item">
+                                    <span class="korean-phrase">우리 반이 2등을 했다.</span>
+                                    <span class="arrow-small">→</span>
+                                    <span class="key-phrase">There was a popularity vote among the teachers, and my class placed second.</span>
+                                </div>
+                                <div class="example-item">
+                                    <span class="korean-phrase">상을 받았다.</span>
+                                    <span class="arrow-small">→</span>
+                                    <span class="key-phrase">There was a popularity vote among the teachers, and my class placed second and received a prize.</span>
+                                </div>
+                                <div class="example-item">
+                                    <span class="korean-phrase">4만원의 상금을 받았다.</span>
+                                    <span class="arrow-small">→</span>
+                                    <span class="key-phrase">There was a popularity vote among the teachers, and my class placed second and received a prize of 40,000 won.</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">문법 포인트: <span class="highlight">전치사 "Among"</span></h3>
+                            <p>
+                                "Among"은 세 명 이상의 그룹 내에서를 의미합니다. 두 명일 때는 "between"을 사용합니다.
+                            </p>
+                            <div class="example">
+                                <div class="example-item">
+                                    <span class="key-phrase">among</span> the teachers (선생님들 사이에서)
+                                    <br><span class="alternative">3명 이상의 그룹</span>
+                                </div>
+                                <div class="example-item">
+                                    <span class="key-phrase">between</span> two teachers (두 선생님 사이에서)
+                                    <br><span class="alternative">2명일 때만</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">문법 포인트: <span class="highlight">동사로서의 "Place"</span></h3>
+                            <p>
+                                "Place"는 순위를 나타낼 때 동사로 사용됩니다. "Placed second" = "came in second"
+                            </p>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">placed first</span>
+                                    <span class="alternative">(1등했다)</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">placed second</span>
+                                    <span class="alternative">(2등했다)</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">placed third</span>
+                                    <span class="alternative">(3등했다)</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">문법 포인트: <span class="highlight">"A prize of" 구조</span></h3>
+                            <p>
+                                "of"는 소유격이나 수량을 나타낼 때 사용됩니다.
+                            </p>
+                            <div class="example">
+                                <div class="example-item">
+                                    a prize <span class="key-phrase">of</span> 40,000 won
+                                    <br><span class="alternative">4만원의 상금 (금액 명시)</span>
+                                </div>
+                                <div class="example-item">
+                                    a group <span class="key-phrase">of</span> students
+                                    <br><span class="alternative">학생들의 그룹</span>
+                                </div>
+                                <div class="example-item">
+                                    a cup <span class="key-phrase">of</span> coffee
+                                    <br><span class="alternative">커피 한 잔</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">주요 어휘</h3>
+                            <div class="phrase-list">
+                                <div class="phrase-item">
+                                    <span class="key-phrase">Popularity vote</span>
+                                    <span class="alternative">(인기투표)</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">Contest</span>
+                                    <span class="alternative">(대회, 경연)</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">Competition</span>
+                                    <span class="alternative">(경쟁, 시합)</span>
+                                </div>
+                                <div class="phrase-item">
+                                    <span class="key-phrase">Prize money</span>
+                                    <span class="alternative">(상금)</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">추가 예문</h3>
+                            <div class="example">
+                                <div class="example-item">
+                                    <span class="korean-phrase">우리가 1등을 했어요!</span>
+                                    <span class="arrow-small">→</span>
+                                    <span class="key-phrase">We placed first!</span>
+                                </div>
+                                <div class="example-item">
+                                    <span class="korean-phrase">학생들 사이에서 투표가 있었어요.</span>
+                                    <span class="arrow-small">→</span>
+                                    <span class="key-phrase">There was a vote among the students.</span>
+                                </div>
+                                <div class="example-item">
+                                    <span class="korean-phrase">10만원의 상금을 받았어요.</span>
+                                    <span class="arrow-small">→</span>
+                                    <span class="key-phrase">We received a prize of 100,000 won.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 4: Grammar Points -->
+                <!-- <div class="tab-content tab-content-4" id="content4">
+                    <div class="explanation-section">
+                        <h2 class="section-title">Grammar Summary</h2>
+                        <div class="explanation-content">
+                            
+                            <h3 class="explanation-title">1. There was/were 구조</h3>
+                            <p>
+                                존재를 나타내는 구문으로, 한국어의 "~이/가 있었다"에 해당합니다.
+                            </p>
+                            <div class="process-steps">
+                                <div class="process-step">
+                                    <div class="step-text">There + was (단수)</div>
+                                    <span class="step-arrow">→</span>
+                                    <div class="step-text">There + were (복수)</div>
+                                </div>
+                                <div class="step-note">주어가 단수인지 복수인지 확인하세요!</div>
+                            </div>
+                            
+                            <h3 class="explanation-title">2. 시간 전치사</h3>
+                            <div class="example">
+                                <div class="example-item">
+                                    <span class="key-phrase">ON</span>: Tuesday, December 23rd
+                                    <br><span class="alternative">특정 요일, 날짜</span>
+                                </div>
+                                <div class="example-item">
+                                    <span class="key-phrase">IN</span>: December, 2024, the morning
+                                    <br><span class="alternative">월, 년, 오전/오후</span>
+                                </div>
+                                <div class="example-item">
+                                    <span class="key-phrase">AT</span>: 3 o'clock, noon, night
+                                    <br><span class="alternative">시간, 정오, 밤</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">3. 과거완료 시제 (had + 과거분사)</h3>
+                            <p>
+                                과거의 어느 시점보다 더 이전에 일어난 일을 표현할 때 사용합니다.
+                            </p>
+                            <div class="language-comparison">
+                                <div class="language-card korean">
+                                    <span class="language-label">Timeline</span>
+                                    <div class="sentence">
+                                        만들었다 → 전시했다
+                                    </div>
+                                </div>
+                                
+                                <div class="arrow-container">
+                                    <div class="arrow">→</div>
+                                </div>
+                                
+                                <div class="language-card english">
+                                    <span class="language-label">English</span>
+                                    <div class="sentence">
+                                        had created → displayed
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">4. 관계절 (Relative Clauses)</h3>
+                            <p>
+                                관계대명사/관계부사를 사용하여 명사를 구체적으로 설명합니다.
+                            </p>
+                            <div class="example">
+                                <div class="example-item">
+                                    <span class="key-phrase">where</span> (장소)
+                                    <br>an exhibition <span class="key-phrase">where</span> students displayed...
+                                </div>
+                                <div class="example-item">
+                                    <span class="key-phrase">that/which</span> (사물)
+                                    <br>work <span class="key-phrase">that</span> they had created...
+                                </div>
+                                <div class="example-item">
+                                    <span class="key-phrase">who</span> (사람)
+                                    <br>students <span class="key-phrase">who</span> participated...
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">5. "and"로 연결된 복문</h3>
+                            <p>
+                                "and"로 두 개의 독립절을 연결할 때, 콤마(,)를 사용합니다.
+                            </p>
+                            <div class="example">
+                                <div class="example-item">
+                                    There was a vote<span class="key-phrase">, and</span> my class placed second.
+                                    <br><span class="alternative">두 개의 완전한 문장을 연결</span>
+                                </div>
+                                <div class="example-item">
+                                    We placed second <span class="key-phrase">and</span> received a prize.
+                                    <br><span class="alternative">같은 주어의 동사를 연결 (콤마 없음)</span>
+                                </div>
+                            </div>
+
+                            <h3 class="explanation-title">6. 흔한 실수들</h3>
+                            <div class="example">
+                                <div class="example-item">
+                                    ❌ There was many students
+                                    <br>✅ There <span class="key-phrase">were</span> many students
+                                    <div class="note">복수명사와 함께 "were" 사용</div>
+                                </div>
+                                <div class="example-item">
+                                    ❌ in Tuesday
+                                    <br>✅ <span class="key-phrase">on</span> Tuesday
+                                    <div class="note">요일 앞에는 "on" 사용</div>
+                                </div>
+                                <div class="example-item">
+                                    ❌ between the teachers (많은 선생님들)
+                                    <br>✅ <span class="key-phrase">among</span> the teachers
+                                    <div class="note">3명 이상일 때는 "among" 사용</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <a href="/index.html" class="home-button">홈으로가기</a>
+            </div>
+        </footer>
+    </div>
+    <script>
+        // Theme toggle functionality
+        const themeToggle = document.getElementById('themeToggle');
+        const body = document.body;
+
+        // Check for saved theme preference or default to 'light'
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        body.setAttribute('data-theme', currentTheme);
+
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = body.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            
+            body.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        });
+    </script>
+</body>
+</html>
